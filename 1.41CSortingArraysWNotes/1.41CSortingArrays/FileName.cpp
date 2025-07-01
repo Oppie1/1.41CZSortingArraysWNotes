@@ -51,7 +51,7 @@ int main()
 		//2nd pass i=1. 1<2
 
 			if (goals[i] > goals[i + 1]) {
-		//1st pass (goals[0,23]>goals[0+1=1,16) True
+		//1st pass (goals[0,23]>goals[0+1=1,16) True --> Another way to look at it -->23[0] >16[1].
 		//Second pass compare i =1 > i+1(2nd spot human 3 spot computer index. This compares indexes/spots
 		//So compare "new" second spot (23) with third slot (25) so is 23<25? False. If control stops and moves to next step
 				temp = goals[i]; //Put 23 in temp varriable for safe keeping while we do the swap from index 0
